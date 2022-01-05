@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25, 25, 25);
+}
+#alpha1 {
+    position: absolute;
+    left: 150px;
+    top: -100px;
+    display: inline-block;
+    font-size: 750px;
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+    transform: rotate(336deg);
+    color: cyan;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+}
+#alpha2 {
+    position: absolute;
+    left: 205px;
+    top: -80px;
+    display: inline-block;
+    font-size: 750px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-stretch: ultra-expanded;
+    transform: rotate(336deg);
+    color: rgb(233, 75, 103);
+    margin-top: 100px;
+    
+}
+.container {
+    font-weight: normal;   
+    color: #ccc;
+    margin-left: 1000px;
+    font-size: 30px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-top: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 450px;
+    line-height: 115%;
+}
+.typed-text {
+    font-weight: normal;
+    color: #ccc;
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% { background-color: #ccc; } 
+    49% { background-color: #ccc; } 
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: #ccc; }
+}
+.message {
+    margin-left: 1000px;
+}
