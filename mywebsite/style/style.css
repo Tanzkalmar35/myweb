@@ -14,11 +14,15 @@ HEX White: #FAFAFA / #FBFCFA
     box-sizing: border-box;
 }
 body {
-    background-image: url("/home/fabian/Dokumente/GitHub/myweb/mywebsite/Bilder/home_back.jpeg");
+    
+    background: url("/Bilder/home_back.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 #home_class {
-    color: rgb(25, 25, 25);
     text-align: center;
     padding-top: 50px;
+    
+    
 }
