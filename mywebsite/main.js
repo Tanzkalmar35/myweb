@@ -1,4 +1,4 @@
-const typedTextSpan = document.querySelector(".typed-text");
+/*const typedTextSpan = document.querySelector(".typed-text");
 
 const textArray = ["Hello, my name is Fabian. I am a software developer. Let me tell you about me: " ];
 const typingDelay = 200;
@@ -19,7 +19,7 @@ function type() {
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(type, newTextDelay + 250);
 });
-
+*/
 
 
 
