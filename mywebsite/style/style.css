@@ -15,7 +15,7 @@ HEX White: #FAFAFA / #FBFCFA
 }
 body {
     
-    background: url("/Bilder/home_back.jpg");
+    background-image: url("hom_back.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
